@@ -1,8 +1,15 @@
-function App() {
+import { useState } from "react"
+import Navbar from './components/Navbar/Navbar';
+import { SelectedPage } from './shared/types'
+
+
+const App = () => {
+
+  const [selectedPage, setSelectedPage] = useState<SelectedPage>(SelectedPage.Home)
 
   return (
-    <div className="App">
-      <h2>App</h2>
+    <div>
+      <Navbar selectedPage={selectedPage} setSelectedPage={setSelectedPage}/>
     </div>
   )
 }
