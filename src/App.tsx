@@ -2,6 +2,9 @@ import { useState, useEffect } from "react"
 import Navbar from './components/navbar/Navbar';
 import { SelectedPage } from './shared/types'
 import Home from './components/home/Home';
+import Benefits from './components/benefits/Benefits';
+
+
 
 
 const App = () => {
@@ -29,7 +32,8 @@ const App = () => {
         selectedPage={selectedPage} 
         setSelectedPage={setSelectedPage}
       />
-      <Home  setSelectedPage={setSelectedPage}/>
+      <Home setSelectedPage={setSelectedPage} />
+      <Benefits setSelectedPage={setSelectedPage} />
     </div>
   )
 }
