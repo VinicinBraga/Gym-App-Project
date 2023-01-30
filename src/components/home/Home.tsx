@@ -36,7 +36,7 @@ const Home = ({ setSelectedPage }: Props) => {
             }}
           >
             <div className="relative">
-              <div className="before:absolute before:-top-10 before:-left-10 w before:z-[-1] md:before:content-powertext">
+              <div className="before:absolute before:-top-10 before:-left-6 before:z-[-1] md:before:content-powertext">
                 <img alt="home-page-text" src={HomePageText} />
               </div>
             </div>
