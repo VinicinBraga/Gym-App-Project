@@ -8,6 +8,7 @@ import {
 } from "@heroicons/react/24/solid";
 import { motion } from "framer-motion";
 import BenefitsPageGraphic from "../../assets/BenefitsPageGraphic.png";
+import Benefit from './Benefit';
 
 
 const benefits: Array<BenefitType> = [
@@ -77,12 +78,17 @@ const Benefits = ({ setSelectedPage }: Props) => {
           variants={container}
         >
           {benefits.map((benefit: BenefitType) => (
-           <div>Benefit</div>
+           <Benefit
+           key={benefit.title}
+           icon={benefit.icon}
+           title={benefit.title}
+           description={benefit.description}
+           setSelectedPage={setSelectedPage}
+         />
           ))}
         </motion.div>
 
         <div className="mt-16 items-center justify-between gap-20 md:mt-28 md:flex">
-          {/* GRAPHIC */}
           <img
             className="mx-auto"
             alt="benefits-page-graphic"
