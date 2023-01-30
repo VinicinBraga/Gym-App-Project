@@ -49,7 +49,6 @@ const Benefits = ({ setSelectedPage }: Props) => {
       <motion.div
         onViewportEnter={() => setSelectedPage(SelectedPage.Benefits)}
       >
-        {/* HEADER */}
         <motion.div
           className="md:my-5 md:w-3/5"
           initial="hidden"
@@ -69,7 +68,6 @@ const Benefits = ({ setSelectedPage }: Props) => {
           </p>
         </motion.div>
 
-        {/* BENEFITS */}
         <motion.div
           className="mt-5 items-center justify-between gap-8 md:flex"
           initial="hidden"
