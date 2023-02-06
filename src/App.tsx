@@ -5,6 +5,7 @@ import Home from './components/home/Home';
 import Benefits from './components/benefits/Benefits';
 import OurClasses from "./components/OurClasees/OurClasses";
 import ContactUs from "./components/contactUs/ContactUs";
+import Footer from "./components/footer/Footer";
 
 
 
@@ -38,6 +39,8 @@ const App = () => {
       <Benefits setSelectedPage={setSelectedPage} />
       <OurClasses setSelectedPage={setSelectedPage} />
       <ContactUs setSelectedPage={setSelectedPage} />
+      <Footer />
+    
    
     </div>
   )
