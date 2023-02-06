@@ -4,6 +4,7 @@ import { SelectedPage } from './shared/types'
 import Home from './components/home/Home';
 import Benefits from './components/benefits/Benefits';
 import OurClasses from "./components/OurClasees/OurClasses";
+import ContactUs from "./components/contactUs/ContactUs";
 
 
 
@@ -36,6 +37,8 @@ const App = () => {
       <Home setSelectedPage={setSelectedPage} />
       <Benefits setSelectedPage={setSelectedPage} />
       <OurClasses setSelectedPage={setSelectedPage} />
+      <ContactUs setSelectedPage={setSelectedPage} />
+   
     </div>
   )
 }
