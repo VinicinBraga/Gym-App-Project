@@ -1,9 +1,12 @@
 # Gym-App-Project
-![Gym-App-Project](./src/assets/screenshot1.png)
+![Gym-App-Project1](./src/assets/screenshot1.png)
+![Gym-App-Project2](./src/assets/screenshot2.png)
+![Gym-App-Project2](./src/assets/screenshot3.png)
 
+O Gym-App-Project é uma aplicação web fictícia de uma academia, construída com React e ReactDOM para oferecer uma experiência responsiva. Com animações suaves do framer-motion e a gestão eficiente de formulários do react-hook-form, o site proporciona uma navegação dinâmica. A estilização é facilitada pelo tailwindcss, enriquecendo o layout com ícones do @heroicons/react e possibilitando um deslocamento suave através do react-anchor-link-smooth-scroll. Utilizando TypeScript e Vite para gerenciamento, o projeto é uma plataforma moderna para praticar desenvolvimento web.
 
 ## Demonstração
-https://memory-game-vinicinbraga.vercel.app
+https://gym-app-project-six.vercel.app
 
 Veja uma demonstração ao vivo aqui
 
@@ -11,7 +14,7 @@ Veja uma demonstração ao vivo aqui
 1.Certifique-se de ter o Node.js instalado.
 2.Clone este repositório para o seu ambiente local usando:
 ```bash
-git clone https://github.com/VinicinBraga/E-commerce-App.git
+git clone https://github.com/VinicinBraga/Gym-App-Project.git
 ```
 
 3.Acesse o diretório do projeto:
@@ -24,30 +27,8 @@ npm install
 ```
 
 ## Como usar
-
 npm run dev
 
-## Estrutura do Projeto
-```bash
-E-commerce-App/
-├── public/
-├── src/
-│   ├── assets/
-│   ├── components/
-│   │   ├── Card
-│   │   ├── Grid
-│   │   └── ...
-│   ├── data/
-│   │   ├── cards.ts
-│   ├── utils/
-│   │   ├── card-utils.ts
-│   ├── Index.css
-│   ├── main.tsx
-│   └── ...
-├── package.json
-├── ...
-└── README.md
-```
 ## Contribuição
 Contribuições são bem-vindas! Se você encontrar bugs, problemas ou tiver melhorias a serem sugeridas, abra uma issue ou envie uma solicitação de pull.
 
