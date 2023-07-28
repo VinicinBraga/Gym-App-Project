@@ -1,9 +1,12 @@
 # Gym-App-Project
-![Gym-App-Project1](./src/assets/screenshot1.png)
-![Gym-App-Project2](./src/assets/screenshot2.png)
-![Gym-App-Project2](./src/assets/screenshot3.png)
 
 O Gym-App-Project é uma aplicação web fictícia de uma academia, construída com React e ReactDOM para oferecer uma experiência responsiva. Com animações suaves do framer-motion e a gestão eficiente de formulários do react-hook-form, o site proporciona uma navegação dinâmica. A estilização é facilitada pelo tailwindcss, enriquecendo o layout com ícones do @heroicons/react e possibilitando um deslocamento suave através do react-anchor-link-smooth-scroll. Utilizando TypeScript e Vite para gerenciamento, o projeto é uma plataforma moderna para praticar desenvolvimento web.
+
+![Gym-App-Project1](./src/assets/screenshot1.png)
+
+![Gym-App-Project2](./src/assets/screenshot2.png)
+
+![Gym-App-Project2](./src/assets/screenshot3.png)
 
 ## Demonstração
 https://gym-app-project-six.vercel.app
