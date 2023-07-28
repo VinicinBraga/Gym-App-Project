@@ -1,5 +1,9 @@
 # Gym-App-Project
-![Gym-App-Project](./src/assets/screenshot1.png)
+![Gym-App-Project1](./src/assets/screenshot1.png)
+
+![Gym-App-Project2](./src/assets/screenshot2.png)
+
+![Gym-App-Project2](./src/assets/screenshot3.png)
 
 
 ## Demonstração
